@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Know Your Car Day | Meineke #794 Dover NH</title>
+    <meta
+      name="description"
+      content="Saturday, September 26, 2026, 10:00 AM to 12:00 PM at Meineke #794, 899 Central Avenue, Dover, NH. Free neighbor day for tires, filters, fluids, dashboard lights, and a look-over. Save your spot."
+    />
+    <meta name="theme-color" content="#111111" />
+    <meta property="og:title" content="Know Your Car Day | Meineke #794 Dover NH" />
+    <meta
+      property="og:description"
+      content="Saturday, September 26, 2026, 10:00 AM to 12:00 PM. Free neighbor day at the shop. Save your spot."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#signup">Skip to signup form</a>
+
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <p class="shop-mark">Meineke #794 · Dover, NH</p>
+        <p class="masthead-phone">
+          <a href="tel:+16036174634">(603) 617-4634</a>
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="event-name">
+        <div class="wrap hero-inner">
+          <p class="eyebrow">Saturday morning at the shop</p>
+          <h1 id="event-name">Know Your Car Day</h1>
+          <p class="when">
+            Saturday, September 26, 2026<br />
+            10:00 AM to 12:00 PM (noon)
+          </p>
+          <p class="where">
+            Meineke #794<br />
+            <a
+              class="map-link"
+              href="https://maps.google.com/?q=899+Central+Avenue+Dover+NH"
+              >899 Central Avenue, Dover, NH</a
+            >
+          </p>
+          <p class="lede">
+            This is a free neighbor day. Put your name on the list, roll in during
+            your window, and we will walk the car with you. Tires, filters, fluids,
+            dashboard lights, and a look-over. Names on a sheet so it does not turn
+            into a line.
+          </p>
+          <p class="hero-actions">
+            <a class="btn btn-primary" href="#signup">Save my spot</a>
+            <a class="btn btn-ghost" href="tel:+16036174634">Call the shop</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="expect" aria-labelledby="expect-heading">
+        <div class="wrap">
+          <h2 id="expect-heading">What to expect</h2>
+          <p class="section-lead">
+            Same kind of look we give a neighbor who pulls in and says, “Can you
+            just tell me what I am looking at?”
+          </p>
+          <ul class="expect-list">
+            <li>
+              <strong>Tires.</strong> Wear, pressure, and what the tread is telling
+              us.
+            </li>
+            <li>
+              <strong>Filters.</strong> A quick check of the ones that keep the car
+              happy.
+            </li>
+            <li>
+              <strong>Fluids.</strong> Oil, coolant, washer fluid, and the rest of
+              the usuals.
+            </li>
+            <li>
+              <strong>Dashboard lights.</strong> If something is on, we will talk
+              through it in plain English.
+            </li>
+            <li>
+              <strong>A look-over of the car.</strong> The stuff you notice when you
+              get around it and underneath.
+            </li>
+            <li>
+              <strong>Your name on the list.</strong> We keep a simple sheet so
+              Saturday stays calm.
+            </li>
+          </ul>
+          <p class="soft-note">
+            Saturday morning is the main window. If that is tight, look-overs can
+            continue through October 3. Call the shop and we will set a time.
+          </p>
+        </div>
+      </section>
+
+      <section class="signup" id="signup" aria-labelledby="signup-heading">
+        <div class="wrap signup-wrap">
+          <h2 id="signup-heading">Save my spot</h2>
+          <p class="section-lead">
+            Digital version of the clipboard at the door. Phone is required so we
+            can reach you about your spot.
+          </p>
+
+          <form
+            class="rsvp-form"
+            name="know-your-car-day"
+            method="POST"
+            action="/thanks.html"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="know-your-car-day" />
+
+            <p class="honeypot">
+              <label for="bot-field">Leave this blank</label>
+              <input
+                type="text"
+                id="bot-field"
+                name="bot-field"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </p>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="first-name">First name</label>
+                <input
+                  id="first-name"
+                  name="first-name"
+                  type="text"
+                  autocomplete="given-name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="last-name">Last name</label>
+                <input
+                  id="last-name"
+                  name="last-name"
+                  type="text"
+                  autocomplete="family-name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone <span class="req">required</span></label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                inputmode="tel"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span class="opt">optional</span></label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+              />
+            </div>
+
+            <fieldset class="vehicle">
+              <legend>
+                Vehicle year / make / model
+                <span class="opt">optional, helps us get ready</span>
+              </legend>
+              <div class="field-row vehicle-row">
+                <div class="field">
+                  <label for="vehicle-year">Year</label>
+                  <input
+                    id="vehicle-year"
+                    name="vehicle-year"
+                    type="text"
+                    inputmode="numeric"
+                    maxlength="4"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="field">
+                  <label for="vehicle-make">Make</label>
+                  <input
+                    id="vehicle-make"
+                    name="vehicle-make"
+                    type="text"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="field">
+                  <label for="vehicle-model">Model</label>
+                  <input
+                    id="vehicle-model"
+                    name="vehicle-model"
+                    type="text"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>What do you care about?</legend>
+              <p class="hint">Check all that apply.</p>
+              <ul class="checks">
+                <li>
+                  <label class="check">
+                    <input type="checkbox" name="care" value="Tires" />
+                    <span>Tires</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" name="care" value="Filters" />
+                    <span>Filters</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" name="care" value="Fluids" />
+                    <span>Fluids</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input
+                      type="checkbox"
+                      name="care"
+                      value="Dashboard lights"
+                    />
+                    <span>Dashboard lights</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input
+                      type="checkbox"
+                      name="care"
+                      value="Full look-over"
+                    />
+                    <span>Full look-over</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" name="care" value="Not sure" />
+                    <span>Not sure</span>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <div class="field">
+              <label for="arrival"
+                >Preferred arrival window
+                <span class="opt">optional</span></label
+              >
+              <select id="arrival" name="arrival">
+                <option value="">No preference</option>
+                <option value="10:00">10:00 AM</option>
+                <option value="10:30">10:30 AM</option>
+                <option value="11:00">11:00 AM</option>
+                <option value="11:30">11:30 AM</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="notes">Notes <span class="opt">optional</span></label>
+              <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+                maxlength="600"
+              ></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-block" type="submit">
+              Put me on the list
+            </button>
+            <p class="form-foot">
+              We use this to run the day and may text or call about your spot.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="footer-shop">Meineke #794</p>
+        <p>
+          <a href="tel:+16036174634">(603) 617-4634</a>
+        </p>
+        <p>
+          <a href="https://maps.google.com/?q=899+Central+Avenue+Dover+NH"
+            >899 Central Avenue, Dover, NH</a
+          >
+        </p>
+        <p class="privacy">
+          We use this signup to run Know Your Car Day and may text or call about
+          your spot. We do not sell your info.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
