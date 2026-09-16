@@ -185,6 +185,7 @@ a:hover {
 .flyer-photo {
   margin: 0;
   background: var(--charcoal);
+  overflow: hidden;
 }
 
 .flyer-photo img {
@@ -194,15 +195,26 @@ a:hover {
   vertical-align: middle;
 }
 
+@media (min-width: 701px) {
+  .hero .flyer-photo {
+    max-height: min(52vh, 30rem);
+  }
+
+  .hero .flyer-photo img {
+    height: min(52vh, 30rem);
+    object-fit: cover;
+    object-position: 40% 38%;
+  }
+}
+
 .flyer-photo-compact {
-  max-height: 280px;
-  overflow: hidden;
+  max-height: 220px;
 }
 
 .flyer-photo-compact img {
-  height: 280px;
+  height: 220px;
   object-fit: cover;
-  object-position: center 42%;
+  object-position: center 28%;
 }
 
 .flyer-band {
