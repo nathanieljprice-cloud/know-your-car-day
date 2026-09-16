@@ -881,8 +881,9 @@ textarea:user-invalid {
 
   .flyer-photo-compact,
   .flyer-photo-compact img {
-    max-height: 200px;
-    height: 200px;
+    max-height: 160px;
+    height: 160px;
+    object-position: center 28%;
   }
 
   .event-details-inner {
